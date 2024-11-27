@@ -11,7 +11,7 @@ from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 from keep_alive import keep_alive
 keep_alive()
 # insert your Telegram bot token here
-bot = telebot.TeleBot('6992301519:AAE1VrpmvPxeW-YHdy8q1Bit3vDRE7vY_C4')
+bot = telebot.TeleBot('7934280572:AAFT0dZXYmtPY_waeEEATSniPGRyTWi7vfg')
 
 # Admin user IDs
 admin_id = ["1786683163"]
